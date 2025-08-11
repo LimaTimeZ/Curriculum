@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Currículum - Tu Nombre</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- Portada -->
+<header class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+
+    <!-- Contenedor top bar -->
+    <div class="top-bar">
+      <!-- Idiomas a la izquierda -->
+      <div class="lang-selector" role="navigation" aria-label="Seleccionar idioma">
+        <button data-lang="es" class="active" aria-label="Español">
+          <img src="img/B_Espanya.png" alt="Bandera España" />
+        </button>
+        <button data-lang="cat" aria-label="Català">
+          <img src="img/B_Catalunya.png" alt="Bandera Catalunya" />
+        </button>
+        <button data-lang="en" aria-label="English">
+          <img src="img/B_USA.png" alt="Flag UK" />
+        </button>
+      </div>
+
+      <!-- Redes sociales a la derecha -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/jordi-arbiol-mir-8075132a4" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <img src="img/Linkedin_Logo.png" alt="LinkedIn" />
+        </a>
+        <a href="https://github.com/tuusuario" target="_blank" rel="noopener" aria-label="GitHub">
+          <img src="img/Github_Logo.png" alt="GitHub" />
+        </a>
+        <a href="https://play.google.com/store/apps/developer?id=D%C3%ADasNoches" target="_blank" rel="noopener" aria-label="PlayStore">
+          <img src="img/PlayStore_Logo.png" alt="GitHub" />
+        </a>
+      </div>
+    </div>
+
+    <img src="img/Perfil.jpg" alt="Foto de perfil" class="profile-pic" />
+    <h1 id="name">Tu Nombre</h1>
+    <p id="tagline" class="tagline">
+      Desarrollador de Software | Especialista en C# y Kotlin
+    </p>
+  </div>
+</header>
+
+    <!-- Sobre mí -->
+    <section id="about">
+        <h2 id="about-title">Sobre mí</h2>
+        <p id="about-text">
+            Soy un desarrollador con experiencia en videojuegos, apps móviles y backend, con pasión por crear soluciones creativas y eficientes.
+        </p>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experience">
+        <h2 id="experience-title">Experiencia</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3 id="job1-title">Desarrollador Freelance</h3>
+                <span id="job1-date">2022 - Actualidad</span>
+                <p id="job1-desc">Desarrollo de videojuegos 2D y aplicaciones móviles personalizadas.</p>
+            </div>
+            <div class="timeline-item">
+                <h3 id="job2-title">Helpdesk & Soporte Técnico</h3>
+                <span id="job2-date">2021 - 2022</span>
+                <p id="job2-desc">Atención a incidencias técnicas y soporte de software empresarial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="skills">
+        <h2 id="skills-title">Habilidades</h2>
+        <div class="skills-grid">
+            <div class="skill">Unity</div>
+            <div class="skill">C#</div>
+            <div class="skill">Kotlin</div>
+            <div class="skill">PL/SQL</div>
+            <div class="skill">Java</div>
+            <div class="skill">HTML/CSS/JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Clip Studio</div>
+            <div class="skill">Medibang</div>
+            <div class="skill">Office Tools</div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <footer id="contact">
+        <h2 id="contact-title">Contacto</h2>
+        <p>Email: <a id="email" href="mailto:tuemail@gmail.com">tuemail@gmail.com</a></p>
+        <p><span id="phone-label">Teléfono:</span> <a id="phone" href="tel:650736658">650736658</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
