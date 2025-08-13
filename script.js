@@ -34,8 +34,6 @@ const translations = {
     "skills-title": "Habilidades",
     "contact-title": "Contacto",
     "email": "startimeron@gmail.com",
-    "phone": "650736658",
-    "phone-label": "Teléfono:",
     },
     en: {
     name: "Jordi Arbiol Mir",
@@ -52,8 +50,6 @@ const translations = {
     "skills-title": "Skills",
     "contact-title": "Contact",
     "email": "startimeron@gmail.com",
-    "phone": "650736658",
-    "phone-label": "Phone:",
     },
 cat: {
     name: "Jordi Arbiol i Mir",
@@ -70,8 +66,6 @@ cat: {
     "skills-title": "Habilitats",
     "contact-title": "Contacte",
     "email": "startimeron@gmail.com",
-    "phone": "650736658",
-    "phone-label": "Telèfon:",
     }
 };
 
